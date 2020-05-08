@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo-container,
+.nav-links,
+.cart {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    font-weight: 400;
+    margin: 5px;
+}
+
+nav {
+    flex: 2;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    color: #5f5f79;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cart {
+    /* flex: 1; */
+    margin-left: 20px;
+    justify-content: flex-end;
+}
+
+.presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.introduction {
+    flex: 1;
+}
+
+.intro-text h1 {
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    color: transparent;
+    /* -webkit-text-fill
+}-color: transparent; */
+}
+
+.intro-text p {
+    margin-top: 5px;
+    font-size: 22px;
+    color: #585772;
+}
+
+.cta {
+    padding: 50px 0 0 0;
+}
+
+.cta-add,
+.cta-select {
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.cta-select {
+    border: 2px solid #c36cbb;
+    background: transparent;
+    color: #c36cbb;
+}
+
+.cta-add {
+    background-color: #c36cbb;
+    border: none;
+    color: white;
+    margin: 30px 0 0 30px
+}
+
+.cover {
+    flex: 1;
+    height: 60vh;
+}
+
+.cover img {
+    height: 100%;
+    filter: drop-shadow(0px 15px 5px rgba(0, 0, 0, 0.7));
+    animation: drop 1.5s ease;
+}
+
+.big-circle,
+.mid-circle,
+.small-circle {
+    position: absolute;
+    z-index: -1;
+}
+
+.big-circle {
+    top: 0;
+    opacity: 0.5;
+    right: 0;
+    height: 80%;
+}
+
+.mid-circle {
+    top: 30%;
+    opacity: 0.4;
+    right: 30%;
+    height: 60%;
+}
+
+.small-circle {
+    bottom: 0;
+    left: 20%;
+}
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .presentation {
+        flex-direction: column;
+    }
+    .introduction {
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .intro-text h1 {
+        font-size: 30px;
+    }
+    .intro-text p {
+        font-size: 18px;
+    }
+    .cta {
+        padding: 10px 0 0 0;
+    }
+    .cover img {
+        height: 80%;
+    }
+    .big-circle,
+    .mid-circle,
+    .small-circle {
+        opacity: 0.2;
+    }
+}
