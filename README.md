@@ -6,10 +6,10 @@
         <img src="https://img.shields.io/badge/Author-YagoErnandes-brightgreen" alt="Author" />
     </a>
     <a href="#">
-        <img src="https://img.shields.io/github/languages/count/YagoErnandes/myBusDf?color=brightgreen" alt="Languages" />
+        <img src="https://img.shields.io/github/languages/count/YagoErnandes/matebook-frontend-design?color=brightgreen" alt="Languages" />
     </a>
-    <a href="https://github.com/yagoernandes/myBusDf/stargazers">
-        <img src="https://img.shields.io/github/stars/YagoErnandes/myBusDf?color=brightgreen" alt="Stars" />
+    <a href="https://github.com/yagoernandes/matebook-frontend-design/stargazers">
+        <img src="https://img.shields.io/github/stars/YagoErnandes/matebook-frontend-design?color=brightgreen" alt="Stars" />
     </a>
     <br />
     <a href="https://twitter.com/intent/follow?screen_name=yagoernandes">
